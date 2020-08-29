@@ -8,6 +8,11 @@ import Typography from "@material-ui/core/Typography";
 import { useState } from "react";
 import Container from "@material-ui/core/Container";
 
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import Divider from "@material-ui/core/Divider";
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -20,8 +25,11 @@ function Copyright() {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    minWidth: 275,
+    // minWidth: 275,
     maxWidth: "default",
+    width: "100%",
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
   },
   bullet: {
     display: "inline-block",
@@ -88,26 +96,29 @@ const Contact = () => {
       <Container className={classes.container}>
         <Card className={classes.root}>
           <CardContent>
-            <Typography
-              className={classes.title}
-              color="textSecondary"
-              gutterBottom
+            <List
+              component="nav"
+              className={classes.root}
+              aria-label="mailbox folders"
             >
-              Contact
-            </Typography>
-            <Typography variant="h6" component="h6">
-              Steven Simon
-            </Typography>
-            <Typography className={classes.pos} color="textSecondary">
-              Email Address:
-              <br />
-              stevierichard1@gmail.com
-            </Typography>
-            <Typography variant="body2" component="p">
-              Phone Number :
-              <br />
-              +1 (415) 308 4769
-            </Typography>
+              <ListItem>
+                <ListItemText primary="Contact Info" align="center" />
+              </ListItem>
+              <Divider />
+              <ListItem divider>
+                <ListItemText primary="Steven Simon" align="center" />
+              </ListItem>
+              <ListItem>
+                <ListItemText
+                  primary="Email: stevierichard1@gmail.com"
+                  align="center"
+                />
+              </ListItem>
+              <Divider light />
+              <ListItem>
+                <ListItemText primary="Phone #: (415) 3084769" align="center" />
+              </ListItem>
+            </List>
           </CardContent>
           <CardActions>
             <Button variant="contained" color="primary" href={url}>
