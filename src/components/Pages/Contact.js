@@ -6,6 +6,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { useState } from "react";
+import Container from "@material-ui/core/Container";
 
 function Copyright() {
   return (
@@ -68,6 +69,12 @@ const useStyles = makeStyles((theme) => ({
   cardContent: {
     flexGrow: 1,
   },
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    minHeight: "100vh",
+  },
 }));
 
 const Contact = () => {
@@ -75,44 +82,46 @@ const Contact = () => {
   const [state, setState] = useState(true);
   let url = "https://www.linkedin.com/in/steven-richard-b2a42563";
   let url1 = "https://github.com/stevierichard";
-  let img = "./public/images/resume";
+  let img = "./images/resume.PDF";
   return (
     <React.Fragment>
-      <Card className={classes.root}>
-        <CardContent>
-          <Typography
-            className={classes.title}
-            color="textSecondary"
-            gutterBottom
-          >
-            Contact
-          </Typography>
-          <Typography variant="h6" component="h6">
-            Steven Simon
-          </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            Email Address:
-            <br />
-            stevierichard1@gmail.com
-          </Typography>
-          <Typography variant="body2" component="p">
-            Phone Number :
-            <br />
-            +1 (415) 308 4769
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button variant="contained" color="primary" href={url}>
-            Linkedin
-          </Button>
-          <Button variant="contained" color="primary" href={url1}>
-            Github
-          </Button>
-          <Button variant="contained" color="primary" href={img}>
-            My Resume
-          </Button>
-        </CardActions>
-      </Card>
+      <Container className={classes.container}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography
+              className={classes.title}
+              color="textSecondary"
+              gutterBottom
+            >
+              Contact
+            </Typography>
+            <Typography variant="h6" component="h6">
+              Steven Simon
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              Email Address:
+              <br />
+              stevierichard1@gmail.com
+            </Typography>
+            <Typography variant="body2" component="p">
+              Phone Number :
+              <br />
+              +1 (415) 308 4769
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button variant="contained" color="primary" href={url}>
+              Linkedin
+            </Button>
+            <Button variant="contained" color="primary" href={url1}>
+              Github
+            </Button>
+            <Button variant="contained" color="primary" href={img}>
+              My Resume
+            </Button>
+          </CardActions>
+        </Card>
+      </Container>
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
           Developed By
