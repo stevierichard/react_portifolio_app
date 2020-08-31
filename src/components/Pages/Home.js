@@ -8,6 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 // import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
+import OfficePic from "../../images/office img.jpg";
 
 function Copyright() {
   return (
@@ -74,7 +75,7 @@ const Home = () => {
           <CardActionArea>
             <CardMedia
               className={classes.media}
-              image="./images/office img.jpg"
+              image={OfficePic}
               title="steven image"
             />
             <CardContent>

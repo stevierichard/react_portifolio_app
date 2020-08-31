@@ -10,6 +10,11 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import Container from "@material-ui/core/Container";
 import CardActions from "@material-ui/core/CardActions";
+import StockTrackerPic from "../../images/StockTracker.jpg";
+import WeatherPic from "../../images/weather.jpg";
+import PwGenPic from "../../images/password_generator.jpg";
+import CalenderPic from "../../images/calender.jpg";
+import ReadmePic from "../../images/readme.jpg";
 
 function Copyright() {
   return (
@@ -26,23 +31,28 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 const tutorialSteps = [
   {
     label: "Stock Tracker App",
-    imgPath: "./images/StockTracker.jpg",
+    // imgPath: "./images/StockTracker.jpg",
+    imgPath: StockTrackerPic,
   },
   {
     label: "Weather App",
-    imgPath: "./images/weather.jpg",
+    // imgPath: "./images/weather.jpg",
+    imgPath: WeatherPic,
   },
   {
     label: "Password Generator App",
-    imgPath: "./images/password_generator.jpg",
+    // imgPath: "./images/password_generator.jpg",
+    imgPath: PwGenPic,
   },
   {
     label: "Calender App",
-    imgPath: "./images/calender.jpg",
+    // imgPath: "./images/calender.jpg",
+    imgPath: CalenderPic,
   },
   {
     label: "Readme Code",
-    imgPath: "./images/readme.jpg",
+    // imgPath: "./images/readme.jpg",
+    imgPath: ReadmePic,
   },
 ];
 

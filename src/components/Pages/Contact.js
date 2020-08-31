@@ -12,6 +12,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
+import Resume from "../../images/resume.PDF";
 
 function Copyright() {
   return (
@@ -90,7 +91,7 @@ const Contact = () => {
   const [state, setState] = useState(true);
   let url = "https://www.linkedin.com/in/steven-richard-b2a42563";
   let url1 = "https://github.com/stevierichard";
-  let img = "./images/resume.PDF";
+  // let img = { Resume };
   return (
     <React.Fragment>
       <Container className={classes.container}>
@@ -127,7 +128,7 @@ const Contact = () => {
             <Button variant="contained" color="primary" href={url1}>
               Github
             </Button>
-            <Button variant="contained" color="primary" href={img}>
+            <Button variant="contained" color="primary" href={Resume}>
               My Resume
             </Button>
           </CardActions>
