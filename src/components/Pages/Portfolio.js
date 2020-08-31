@@ -31,27 +31,22 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 const tutorialSteps = [
   {
     label: "Stock Tracker App",
-    // imgPath: "./images/StockTracker.jpg",
     imgPath: StockTrackerPic,
   },
   {
     label: "Weather App",
-    // imgPath: "./images/weather.jpg",
     imgPath: WeatherPic,
   },
   {
     label: "Password Generator App",
-    // imgPath: "./images/password_generator.jpg",
     imgPath: PwGenPic,
   },
   {
     label: "Calender App",
-    // imgPath: "./images/calender.jpg",
     imgPath: CalenderPic,
   },
   {
     label: "Readme Code",
-    // imgPath: "./images/readme.jpg",
     imgPath: ReadmePic,
   },
 ];
