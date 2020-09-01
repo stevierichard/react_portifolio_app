@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
   navlink: {
     color: "#fff",
   },
+  navlinkcss: {
+    textDecoration: "none",
+  },
 }));
 
 const Nav = () => {
@@ -23,16 +26,20 @@ const Nav = () => {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography className={classes.title}>Steven Simon</Typography>
+          <Typography className={classes.title}>
+            <Link to="/about" className={classes.navlinkcss}>
+              <Button className={classes.navlink}>Steven Simon</Button>
+            </Link>
+          </Typography>
 
-          <Link to="/about" className="navlinkcss">
+          <Link to="/about" className={classes.navlinkcss}>
             <Button className={classes.navlink}>About</Button>
           </Link>
 
-          <Link to="/portfolio" className="navlinkcss">
+          <Link to="/portfolio" className={classes.navlinkcss}>
             <Button className={classes.navlink}>Portfolio</Button>
           </Link>
-          <Link to="/contact" className="navlinkcss">
+          <Link to="/contact" className={classes.navlinkcss}>
             <Button className={classes.navlink}>Contact</Button>
           </Link>
         </Toolbar>

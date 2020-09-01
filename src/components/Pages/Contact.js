@@ -27,7 +27,7 @@ function Copyright() {
 const useStyles = makeStyles((theme) => ({
   root: {
     // minWidth: 275,
-    maxWidth: "default",
+    // maxWidth: "default",
     width: "100%",
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
@@ -117,7 +117,10 @@ const Contact = () => {
               </ListItem>
               <Divider light />
               <ListItem>
-                <ListItemText primary="Phone #: (415) 3084769" align="center" />
+                <ListItemText
+                  primary="Phone #: (415) 308 - 4769"
+                  align="center"
+                />
               </ListItem>
             </List>
           </CardContent>
