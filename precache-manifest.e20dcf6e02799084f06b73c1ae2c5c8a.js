@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed07c2300f934110aed2307d3ba107d3",
+    "revision": "b36d4a5a4168074517c280eb46085ad0",
     "url": "/react_portifolio_app/index.html"
   },
   {
-    "revision": "74cd95575e2d62d18100",
+    "revision": "1f1497a9a2ab8fcb244c",
     "url": "/react_portifolio_app/static/css/main.7af57b61.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_portifolio_app/static/js/2.23c7682b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74cd95575e2d62d18100",
-    "url": "/react_portifolio_app/static/js/main.341f60e2.chunk.js"
+    "revision": "1f1497a9a2ab8fcb244c",
+    "url": "/react_portifolio_app/static/js/main.15c5e8f0.chunk.js"
   },
   {
     "revision": "1121d148152ba364cd26",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_portifolio_app/static/media/StockTracker.36fe5fea.jpg"
   },
   {
-    "revision": "856d2151378da6680f0d9c18b103678c",
-    "url": "/react_portifolio_app/static/media/calender.856d2151.jpg"
+    "revision": "824a48f159dd523785ffdfd635927aaa",
+    "url": "/react_portifolio_app/static/media/Ubalozi.824a48f1.jpg"
   },
   {
-    "revision": "7cb93476c6170030c98cdbb47a452643",
-    "url": "/react_portifolio_app/static/media/office img.7cb93476.jpg"
+    "revision": "856d2151378da6680f0d9c18b103678c",
+    "url": "/react_portifolio_app/static/media/calender.856d2151.jpg"
   },
   {
     "revision": "0bf442e58abf94f6a4cc0541e8153286",
