@@ -2,7 +2,7 @@ import React from "react";
 // import logo from './logo.svg';
 import "./App.css";
 import Nav from "./components/Nav/Nav";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Portfolio from "./components/Pages/Portfolio";
 import Contact from "./components/Pages/Contact";

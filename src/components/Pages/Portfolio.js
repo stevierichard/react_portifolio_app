@@ -10,6 +10,7 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import Container from "@material-ui/core/Container";
 import CardActions from "@material-ui/core/CardActions";
+
 import StockTrackerPic from "../../images/StockTracker.jpg";
 import WeatherPic from "../../images/weather.jpg";
 import PwGenPic from "../../images/password_generator.jpg";
@@ -84,7 +85,7 @@ const Portfolio = () => {
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = tutorialSteps.length;
   let url = "https://github.com/stevierichard/StockTracker";
-  let url1 = "https://github.com/stevierichard/WeatherDashboard";
+  let url1 = "https://github.com/stevierichard/weather-news-app";
   let url2 = "https://github.com/stevierichard/PasswordGenerator";
   let url3 = "https://github.com/stevierichard/-DayPlanner";
   let url4 = "https://github.com/stevierichard/readMeGenerator";
@@ -162,24 +163,54 @@ const Portfolio = () => {
             }
           />
           <CardActions>
-            <Button variant="contained" color="primary" href={url}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url}
+              target="_blank"
+            >
               StockTracker
             </Button>
-            <Button variant="contained" color="primary" href={url1}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url1}
+              target="_blank"
+            >
               Weather
             </Button>
-            <Button variant="contained" color="primary" href={url2}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url2}
+              target="_blank"
+            >
               Password
             </Button>
           </CardActions>
           <CardActions>
-            <Button variant="contained" color="primary" href={url3}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url3}
+              target="_blank"
+            >
               Calender
             </Button>
-            <Button variant="contained" color="primary" href={url4}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url4}
+              target="_blank"
+            >
               ReadMe
             </Button>
-            <Button variant="contained" color="primary" href={url5}>
+            <Button
+              variant="contained"
+              color="primary"
+              href={url5}
+              target="_blank"
+            >
               fitnessTracker
             </Button>
           </CardActions>

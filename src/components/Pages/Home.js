@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 // import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import OfficePic from "../../images/Ubalozi.jpg";
+import OfficePic from "../../images/steve.jpeg";
 
 function Copyright() {
   return (
@@ -83,12 +83,7 @@ const Home = () => {
                 About
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                My name is Steven Simon, a Tanzania native born and raised, live
-                in California. I'm a graduate of College of Business Education
-                my major is business administration and management.I have a vast
-                experience in IT sales and management. My passion in solving
-                business problems and my love for programming have led me to
-                take this bootcamp course.
+              Full Stack Web Developer with a background and experience in business with a passion for technology. Recently completed a bootcamp course at UC Berkeley Extension University where I developed skills in building front-end websites from scratch with ready-made frameworks, creating full-stack single-page web applications with RESTful routes and Ajax methods and generating dynamic content and implement user-authentication schemes by incorporating two types of databases—MySQL and MongoDB. 
               </Typography>
             </CardContent>
           </CardActionArea>
