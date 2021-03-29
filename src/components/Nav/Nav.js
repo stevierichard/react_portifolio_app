@@ -28,7 +28,7 @@ const Nav = () => {
         <Toolbar>
           <Typography className={classes.title}>
             <Link to="/about" className={classes.navlinkcss}>
-              <Button className={classes.navlink}>Steven Simon</Button>
+              <Button className={classes.navlink}>Steven R Simon</Button>
             </Link>
           </Typography>
 
