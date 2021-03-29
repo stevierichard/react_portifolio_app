@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/react_portifolio_app/static/css/main.7af57b61.chunk.css",
-    "main.js": "/react_portifolio_app/static/js/main.15c5e8f0.chunk.js",
-    "main.js.map": "/react_portifolio_app/static/js/main.15c5e8f0.chunk.js.map",
+    "main.js": "/react_portifolio_app/static/js/main.8ffade9c.chunk.js",
+    "main.js.map": "/react_portifolio_app/static/js/main.8ffade9c.chunk.js.map",
     "runtime-main.js": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js",
     "runtime-main.js.map": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js.map",
-    "static/js/2.23c7682b.chunk.js": "/react_portifolio_app/static/js/2.23c7682b.chunk.js",
-    "static/js/2.23c7682b.chunk.js.map": "/react_portifolio_app/static/js/2.23c7682b.chunk.js.map",
+    "static/js/2.4a702829.chunk.js": "/react_portifolio_app/static/js/2.4a702829.chunk.js",
+    "static/js/2.4a702829.chunk.js.map": "/react_portifolio_app/static/js/2.4a702829.chunk.js.map",
     "index.html": "/react_portifolio_app/index.html",
-    "precache-manifest.e20dcf6e02799084f06b73c1ae2c5c8a.js": "/react_portifolio_app/precache-manifest.e20dcf6e02799084f06b73c1ae2c5c8a.js",
+    "precache-manifest.56385dc3f8134d5336a5d1ee806d3c65.js": "/react_portifolio_app/precache-manifest.56385dc3f8134d5336a5d1ee806d3c65.js",
     "service-worker.js": "/react_portifolio_app/service-worker.js",
     "static/css/main.7af57b61.chunk.css.map": "/react_portifolio_app/static/css/main.7af57b61.chunk.css.map",
-    "static/js/2.23c7682b.chunk.js.LICENSE.txt": "/react_portifolio_app/static/js/2.23c7682b.chunk.js.LICENSE.txt",
+    "static/js/2.4a702829.chunk.js.LICENSE.txt": "/react_portifolio_app/static/js/2.4a702829.chunk.js.LICENSE.txt",
+    "static/media/Steven Richard Simon resume.pdf": "/react_portifolio_app/static/media/Steven Richard Simon resume.6c559d12.pdf",
     "static/media/StockTracker.jpg": "/react_portifolio_app/static/media/StockTracker.36fe5fea.jpg",
-    "static/media/Ubalozi.jpg": "/react_portifolio_app/static/media/Ubalozi.824a48f1.jpg",
     "static/media/calender.jpg": "/react_portifolio_app/static/media/calender.856d2151.jpg",
     "static/media/password_generator.jpg": "/react_portifolio_app/static/media/password_generator.0bf442e5.jpg",
     "static/media/readme.jpg": "/react_portifolio_app/static/media/readme.4ad6f4e2.jpg",
-    "static/media/resume.PDF": "/react_portifolio_app/static/media/resume.bf4e1767.PDF",
+    "static/media/steve.jpeg": "/react_portifolio_app/static/media/steve.2135b047.jpeg",
     "static/media/weather.jpg": "/react_portifolio_app/static/media/weather.f8eeaf87.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bbb1269f.js",
-    "static/js/2.23c7682b.chunk.js",
+    "static/js/2.4a702829.chunk.js",
     "static/css/main.7af57b61.chunk.css",
-    "static/js/main.15c5e8f0.chunk.js"
+    "static/js/main.8ffade9c.chunk.js"
   ]
 }

@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b36d4a5a4168074517c280eb46085ad0",
+    "revision": "619e40c5fe82c0ff45741b14bd4f38d0",
     "url": "/react_portifolio_app/index.html"
   },
   {
-    "revision": "1f1497a9a2ab8fcb244c",
+    "revision": "63cdee3280eafdbbeded",
     "url": "/react_portifolio_app/static/css/main.7af57b61.chunk.css"
   },
   {
-    "revision": "59c0b9a4297579957f8b",
-    "url": "/react_portifolio_app/static/js/2.23c7682b.chunk.js"
+    "revision": "54ad027b79ac943633ca",
+    "url": "/react_portifolio_app/static/js/2.4a702829.chunk.js"
   },
   {
     "revision": "5b8b49146ea7ff4abb4f22a9d28772fe",
-    "url": "/react_portifolio_app/static/js/2.23c7682b.chunk.js.LICENSE.txt"
+    "url": "/react_portifolio_app/static/js/2.4a702829.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f1497a9a2ab8fcb244c",
-    "url": "/react_portifolio_app/static/js/main.15c5e8f0.chunk.js"
+    "revision": "63cdee3280eafdbbeded",
+    "url": "/react_portifolio_app/static/js/main.8ffade9c.chunk.js"
   },
   {
     "revision": "1121d148152ba364cd26",
     "url": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js"
   },
   {
-    "revision": "36fe5feaeff842ff62eda2fca35cf5b4",
-    "url": "/react_portifolio_app/static/media/StockTracker.36fe5fea.jpg"
+    "revision": "6c559d12efea4c091b425e2ae28281a1",
+    "url": "/react_portifolio_app/static/media/Steven Richard Simon resume.6c559d12.pdf"
   },
   {
-    "revision": "824a48f159dd523785ffdfd635927aaa",
-    "url": "/react_portifolio_app/static/media/Ubalozi.824a48f1.jpg"
+    "revision": "36fe5feaeff842ff62eda2fca35cf5b4",
+    "url": "/react_portifolio_app/static/media/StockTracker.36fe5fea.jpg"
   },
   {
     "revision": "856d2151378da6680f0d9c18b103678c",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_portifolio_app/static/media/readme.4ad6f4e2.jpg"
   },
   {
-    "revision": "bf4e1767ddc80f6f46dcdb33945ad5cb",
-    "url": "/react_portifolio_app/static/media/resume.bf4e1767.PDF"
+    "revision": "2135b047efc2e0f941466909ebd91b59",
+    "url": "/react_portifolio_app/static/media/steve.2135b047.jpeg"
   },
   {
     "revision": "f8eeaf8792143359ab49bee9eda7af37",
