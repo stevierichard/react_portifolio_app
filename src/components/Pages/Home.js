@@ -83,12 +83,13 @@ const Home = () => {
                 About
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Full Stack Enterprise Java 8 and JavaScript Web Developer with a background
-                and experience in business with a passion for technology.
-                Completed bootcamp course for both two languages at Southern
-                Methodist University and UC Berkeley Extension where I developed
-                skills in building front-end and back-end websites and apps from
-                scratch with ready-made frameworks, creating full-stack
+                Full Stack Enterprise Java 8 and JavaScript Web Developer with a
+                background and experience in business with a passion for
+                technology. Completed bootcamp course for Enterprise Java 8 and
+                Javascript languages at Southern Methodist University and UC
+                Berkeley Extension where I developed skills in building
+                front-end and back-end websites and apps from scratch with
+                various libraries and frameworks, creating full-stack
                 single-page web applications with React and generating dynamic
                 content and implement user-authentication schemes by
                 incorporating two types of databases—MySQL and MongoDB.
