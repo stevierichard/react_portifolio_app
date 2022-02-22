@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "951ebed4e8a8066635f9ba0e54b94a6d",
+    "revision": "3c9c58afbb1c5f881b52e85d0fadd01b",
     "url": "/react_portifolio_app/index.html"
   },
   {
-    "revision": "8d52d6f27b80782c578f",
+    "revision": "991c79df215dff66b23d",
     "url": "/react_portifolio_app/static/css/main.7af57b61.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_portifolio_app/static/js/2.4a702829.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d52d6f27b80782c578f",
-    "url": "/react_portifolio_app/static/js/main.0c80539d.chunk.js"
+    "revision": "991c79df215dff66b23d",
+    "url": "/react_portifolio_app/static/js/main.9dd3eaf6.chunk.js"
   },
   {
     "revision": "1121d148152ba364cd26",
     "url": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js"
   },
   {
-    "revision": "6c559d12efea4c091b425e2ae28281a1",
-    "url": "/react_portifolio_app/static/media/Steven Richard Simon resume.6c559d12.pdf"
+    "revision": "9f66fef459674cf44f78b7e5610ffc48",
+    "url": "/react_portifolio_app/static/media/Steven Richard Simon resume.9f66fef4.pdf"
   },
   {
     "revision": "36fe5feaeff842ff62eda2fca35cf5b4",

@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react_portifolio_app/static/css/main.7af57b61.chunk.css",
-    "main.js": "/react_portifolio_app/static/js/main.0c80539d.chunk.js",
-    "main.js.map": "/react_portifolio_app/static/js/main.0c80539d.chunk.js.map",
+    "main.js": "/react_portifolio_app/static/js/main.9dd3eaf6.chunk.js",
+    "main.js.map": "/react_portifolio_app/static/js/main.9dd3eaf6.chunk.js.map",
     "runtime-main.js": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js",
     "runtime-main.js.map": "/react_portifolio_app/static/js/runtime-main.bbb1269f.js.map",
     "static/js/2.4a702829.chunk.js": "/react_portifolio_app/static/js/2.4a702829.chunk.js",
     "static/js/2.4a702829.chunk.js.map": "/react_portifolio_app/static/js/2.4a702829.chunk.js.map",
     "index.html": "/react_portifolio_app/index.html",
-    "precache-manifest.0166ffb63a6bae7331c430107fe520dc.js": "/react_portifolio_app/precache-manifest.0166ffb63a6bae7331c430107fe520dc.js",
+    "precache-manifest.6064110ebccbba99cb82e8aca1275eda.js": "/react_portifolio_app/precache-manifest.6064110ebccbba99cb82e8aca1275eda.js",
     "service-worker.js": "/react_portifolio_app/service-worker.js",
     "static/css/main.7af57b61.chunk.css.map": "/react_portifolio_app/static/css/main.7af57b61.chunk.css.map",
     "static/js/2.4a702829.chunk.js.LICENSE.txt": "/react_portifolio_app/static/js/2.4a702829.chunk.js.LICENSE.txt",
-    "static/media/Steven Richard Simon resume.pdf": "/react_portifolio_app/static/media/Steven Richard Simon resume.6c559d12.pdf",
+    "static/media/Steven Richard Simon resume.pdf": "/react_portifolio_app/static/media/Steven Richard Simon resume.9f66fef4.pdf",
     "static/media/StockTracker.jpg": "/react_portifolio_app/static/media/StockTracker.36fe5fea.jpg",
     "static/media/calender.jpg": "/react_portifolio_app/static/media/calender.856d2151.jpg",
     "static/media/password_generator.jpg": "/react_portifolio_app/static/media/password_generator.0bf442e5.jpg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.bbb1269f.js",
     "static/js/2.4a702829.chunk.js",
     "static/css/main.7af57b61.chunk.css",
-    "static/js/main.0c80539d.chunk.js"
+    "static/js/main.9dd3eaf6.chunk.js"
   ]
 }
