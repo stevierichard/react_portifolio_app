@@ -214,7 +214,7 @@ const useStyles = makeStyles((theme) => ({
 const Contact = () => {
   const classes = useStyles();
   // const [state, setState] = useState(true);
-  let url = "https://www.linkedin.com/in/steven-richard-b2a42563";
+  let url = "https://www.linkedin.com/in/steven-richard-simon-b2a42563";
   let url1 = "https://github.com/stevierichard";
   // let img = { Resume };
   return (
@@ -250,13 +250,28 @@ const Contact = () => {
             </List>
           </CardContent>
           <CardActions>
-            <Button variant="contained" color="primary" target="_blank" href={url}>
+            <Button
+              variant="contained"
+              color="primary"
+              target="_blank"
+              href={url}
+            >
               Linkedin
             </Button>
-            <Button variant="contained" color="primary" target="_blank" href={url1}>
+            <Button
+              variant="contained"
+              color="primary"
+              target="_blank"
+              href={url1}
+            >
               Github
             </Button>
-            <Button variant="contained" color="primary" target="_blank" href={Resume}>
+            <Button
+              variant="contained"
+              color="primary"
+              target="_blank"
+              href={Resume}
+            >
               My Resume
             </Button>
           </CardActions>
