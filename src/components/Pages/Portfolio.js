@@ -19,10 +19,9 @@ import ReadmePic from "../../images/readme.jpg";
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body2" color="white" align="center">
       {"Copyright © "}
       {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
@@ -76,6 +75,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     minHeight: "100vh",
+  },
+  footer: {
+    backgroundColor: "#3F50B5",
+    padding: theme.spacing(1),
+    color: "white",
   },
 }));
 
@@ -223,10 +227,10 @@ const Portfolio = () => {
         <Typography
           variant="subtitle1"
           align="center"
-          color="textSecondary"
+          color="white"
           component="p"
         >
-          Steven Richard Simon!
+          Steven Richard Simon
         </Typography>
         <Copyright />
       </footer>

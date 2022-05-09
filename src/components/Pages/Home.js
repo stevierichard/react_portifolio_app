@@ -12,17 +12,18 @@ import OfficePic from "../../images/steve.jpeg";
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body2" color="white" align="center">
       {"Copyright © "}
       {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: "default",
+    maxWidth: "500px",
+    marginTop: "15px",
+    marginBottom: "15px",
   },
   media: {
     height: "70vh",
@@ -30,8 +31,9 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "500px",
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
+    backgroundColor: "#3F50B5",
+    padding: theme.spacing(1),
+    color: "white",
   },
   icon: {
     marginRight: theme.spacing(2),
@@ -79,9 +81,9 @@ const Home = () => {
               title="steven image"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
+              {/* <Typography gutterBottom variant="h5" component="h2">
                 About
-              </Typography>
+              </Typography> */}
               <Typography variant="body2" color="textSecondary" component="p">
                 Full Stack Enterprise Java 8 and JavaScript Web Developer with a
                 background and experience in business with a passion for
@@ -105,10 +107,10 @@ const Home = () => {
         <Typography
           variant="subtitle1"
           align="center"
-          color="textSecondary"
+          color="white"
           component="p"
         >
-          Steven Richard Simon!
+          Steven Richard Simon
         </Typography>
         <Copyright />
       </footer>

@@ -141,10 +141,9 @@ import Resume from "../../images/Steven Richard Simon resume.pdf";
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body2" color="white" align="center">
       {"Copyright © "}
       {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
@@ -175,8 +174,9 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "500px",
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
+    backgroundColor: "#3F50B5",
+    padding: theme.spacing(2),
+    color: "white",
   },
   icon: {
     marginRight: theme.spacing(2),
@@ -284,10 +284,10 @@ const Contact = () => {
         <Typography
           variant="subtitle1"
           align="center"
-          color="textSecondary"
+          color="white"
           component="p"
         >
-          Steven Richard Simon!
+          Steven Richard Simon
         </Typography>
         <Copyright />
       </footer>
